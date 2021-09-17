@@ -523,6 +523,11 @@ export const actionChangeFontFamily = register({
         text: t("labels.code"),
         icon: <FontFamilyCodeIcon theme={appState.theme} />,
       },
+      {
+        value: FONT_FAMILY.ZHIWNDXSG,
+        text: t("labels.handChinese"),
+        icon: <FontFamilyCodeIcon theme={appState.theme} />,
+      },
     ];
 
     return (
